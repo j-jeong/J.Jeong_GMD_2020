@@ -12,7 +12,7 @@ After unzipping data in the directory, you can run benchmarks_verification.R.
 # Descriptions
 ## data
 ### obs.RData
-List of 11 datasets selected from European biommass network.
+List of 11 datasets selected from the European biomass network.
 
 ## output
 ### BACI_sim.r5698.RData and BACI_sim.ccn.r5698.RData 
@@ -27,7 +27,7 @@ This code uses the European biomass network dataset. To run this, please downloa
 ### cal_simulated_trw.R
 An example of calculating tree-ring width from ORCHIDEE output.
 ### build_obs_Rdata.R
-To built list for convenience in further processes. To run this, please download BACI datasets first.
+To build a list for convenience in further processes. To run this, please download BACI datasets first.
 ### functions_J.R
 Set of small functions to process 4 tree-ring benchmarks.
 ### fun_cal_trw.R
@@ -35,4 +35,4 @@ Function to calculate tree-ring width from ORCHIDEE-output.
 
 ## config
 ### xx.zip
-set of each configuration for 11 sites used for running ORCHIDEE. Please note that site HD2 and TIC was located in the same pixel so spinup.zip has 10 configurations.
+set of each configuration for 11 sites used for running ORCHIDEE. Please note that site HD2 and TIC were located in the same pixel so spinup.zip has 10 configurations.

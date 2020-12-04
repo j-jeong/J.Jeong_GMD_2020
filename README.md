@@ -24,14 +24,18 @@ Example output nc file to run cal_simulated_trw.R
 ### benchmarks_verification.R
 Verification using modifiers to the simulated outputs resulting in the main result, Table 2. 
 This code uses the European biomass network dataset. To run this, please download BACI datasets first.
+### build_obs_Rdata.R
+To build a list for convenience in further processes. To run this, please download BACI datasets first. This script should be run before using benchamarks_verification.R and plot_FigS2.R
 ### cal_simulated_trw.R
 An example of calculating tree-ring width from ORCHIDEE output.
-### build_obs_Rdata.R
-To build a list for convenience in further processes. To run this, please download BACI datasets first.
 ### functions_J.R
 Set of small functions to process 4 tree-ring benchmarks.
 ### fun_cal_trw.R
 Function to calculate tree-ring width from ORCHIDEE-output.
+### plot_Fig5_6_7_8.R
+Make explanatory figures for buidling benchmarks. This script reproduces Fig. 5 to 8.
+### plot_FigS2.R
+Make example benchmarking figures against European biomass network dataset. This scriopt reproduces Fig. S2 in the supplementary material.
 
 ## config
 ### xx.zip

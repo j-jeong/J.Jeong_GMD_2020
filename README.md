@@ -11,8 +11,8 @@ After unzipping data in the directory, you can run benchmarks_verification.R.
 
 # Descriptions
 ## data
-### obs.RData
-List of 11 datasets selected from the European biomass network.
+### ITRDB_obs.RData
+List of 10 datasets selected from the ITRDB used for the first test, but for here, this file is used to run plot_Fig5_6_7_8.R.
 
 ## output
 ### BACI_sim.r5698.RData and BACI_sim.ccn.r5698.RData 
@@ -33,9 +33,9 @@ Set of small functions to process 4 tree-ring benchmarks.
 ### fun_cal_trw.R
 Function to calculate tree-ring width from ORCHIDEE-output.
 ### plot_Fig5_6_7_8.R
-Make explanatory figures for buidling benchmarks. This script reproduces Fig. 5 to 8.
+Make explanatory figures for building benchmarks. This script reproduces Fig. 5 to 8.
 ### plot_FigS2.R
-Make example benchmarking figures against European biomass network dataset. This scriopt reproduces Fig. S2 in the supplementary material.
+Make example benchmarking figures against the European biomass network dataset. This script reproduces Fig. S2 in the supplementary material.
 
 ## config
 ### xx.zip

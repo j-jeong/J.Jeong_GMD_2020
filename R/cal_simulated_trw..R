@@ -1,8 +1,10 @@
 ## Example for the calculation of TRW from the simulated output
 # This code is written to give examples to use functions in fun_cal_trw.R 
 # with simulated output from ORCHIDEE r5698.
-# All outputs were proceeded to output/BACI_sim.r5698.RData and output/BACI_si.ccn.r5698.RData with the
-# below code, but all outputs were not uploaded due to the storage of the archive.
+# All outputs were proceeded to output/BACI_sim.r5698.RData and output/BACI_si.ccn.r5698.RData 
+# with this script.
+# All of the simulated output was not uploaded due to its large size, but one site,
+# DEO was uploaded in the output directory to give an example.
 # Author: Jina Jeong (j.jeong@vu.nl)
 
 #- 0. Initialize ####

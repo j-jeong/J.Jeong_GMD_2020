@@ -1,11 +1,9 @@
 # This code is written to
-# build observation RData using selected 11 sites for further convienience
-# The uploaded directory contains finalized simulation.RData, however, 
+# build observation RData using selected 11 sites for further convenience.
+# The uploaded directory contains the finalized simulation.RData, however, 
 # to build the observation list (#-2), you need to download the BACI dataset.
 # You can download it by registration with your email on the site :
 # http://www.baci-h2020.eu/
-# All of the simulated output was not uploaded due to its large size, one site,
-# DEO was uploaded in ouput directory to give an example.
 
 #- 0. Initialize ####
 

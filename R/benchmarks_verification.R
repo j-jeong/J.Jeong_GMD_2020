@@ -1,6 +1,6 @@
-# Apply modifires to the simulated outputs for the verification of benchmarks.
+# Apply modifiers to the simulated outputs for the verification of benchmarks.
 # This code contains 
-# 1) cacluation the modifier for the optimum simulation against big-tree data 
+# 1) caculation the modifier for the optimum simulation against big-tree data 
 #    using 3 different methods
 # 2) apply the same modifier to all-tree data
 # 3) calculating the improvements

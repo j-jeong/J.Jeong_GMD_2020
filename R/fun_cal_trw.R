@@ -4,8 +4,8 @@
 
 # cal_trw
 #- This function is written to calculate TRW from CCDELTABA (increment of basal area)
-#- Please note that this function work only for PFT_def with no age
-#- init : Consider initial basal area. If init=F, TRW is re-formated from 0. 
+#- Please note that this function works only for PFT_def with no age
+#- init: Consider the initial basal area. If init=F, TRW is re-formatted from 0 basal areas. 
 # extract_ccn
 #- This function is written to extract CCN (number of individuals per size classes) 
 #- which is needed to calculate mean TRW

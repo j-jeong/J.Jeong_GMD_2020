@@ -6,8 +6,8 @@
 # to build the observation list (#-2), you need to download the BACI dataset.
 # You can download it by registration with your email on the site :
 # http://www.baci-h2020.eu/
-# All of the simulated output was not uploaded due to its large size, one example site,
-# DEO was uploaded in ouput directory
+# All of the simulated output was not uploaded due to its large size, one site,
+# DEO was uploaded in ouput directory to give an example.
 
 #- 1. Initialize ####
 

@@ -364,15 +364,18 @@ for (site in site_info$site){
 
 improve.data = data.frame(
   site = site_info$site,
-  trend_rmse_diff_all = alpha.data$trend_rmse_bf_all - alpha.data$trend_rmse_af_all,
-  trend_slope_diff_all = abs(alpha.data$trend_slope_bf_all) - abs(alpha.data$trend_slope_af_all),
-  mature_rmse_diff_all = alpha.data$mature_rmse_bf_all - alpha.data$mature_rmse_af_all,
-  mature_slope_diff_all = abs(alpha.data$mature_slope_bf_all) - abs(alpha.data$mature_slope_af_all),
-  young_rmse_diff_all = alpha.data$young_rmse_bf_all - alpha.data$young_rmse_af_all,
-  young_slope_diff_all = abs(alpha.data$young_slope_bf_all) - abs(alpha.data$young_slope_af_all),
-  extr_amp_diff_all = alpha.data$extr_amp_bf_all - alpha.data$extr_amp_af_all,
-  extr_growth_diff_all = alpha.data$extr_growth_bf_all - alpha.data$extr_growth_af_all
+  trend_rmse_diff_all = alpha.data$trend_rmse_af_all - alpha.data$trend_rmse_bf_all,
+  trend_slope_diff_all = abs(alpha.data$trend_slope_af_all) - abs(alpha.data$trend_slope_bf_all),
+  mature_rmse_diff_all = alpha.data$mature_rmse_af_all - alpha.data$mature_rmse_bf_all,
+  mature_slope_diff_all = abs(alpha.data$mature_slope_af_all) - abs(alpha.data$mature_slope_bf_all),
+  young_rmse_diff_all = alpha.data$young_rmse_af_all - alpha.data$young_rmse_bf_all,
+  young_slope_diff_all = abs(alpha.data$young_slope_af_all) - abs(alpha.data$young_slope_bf_all),
+  extr_amp_diff_all = alpha.data$extr_amp_af_all - alpha.data$extr_amp_bf_all,
+  extr_growth_diff_all = alpha.data$extr_growth_af_all - alpha.data$extr_growth_bf_all
 )
+result.out = improve.data
+result.out[,2:3] = round(result.out[,2:3],3)
+result.out[,4:9] = round(result.out[,4:9],2)
 
 write.csv(improve.data,file='report/Table2_data.scv')
 

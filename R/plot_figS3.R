@@ -1,6 +1,6 @@
 # Script to draw benchmarks for selected European biomass network sites 
 
-# This script can reproduce Fig. 10 in the research paper:
+# This script can reproduce Fig. S3 in the research paper:
 # 'Using the International Tree-Ring Data Bank (ITRDB) records as century-long benchmarks 
 # for land-surface models'
 

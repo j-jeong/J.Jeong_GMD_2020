@@ -34,8 +34,8 @@ Set of small functions to process 4 tree-ring benchmarks.
 Function to calculate tree-ring width from ORCHIDEE-output.
 ### plot_Fig5_6_7_8.R
 Make explanatory figures for building benchmarks. This script reproduces Fig. 5 to 8.
-### plot_Fig10.R
-Make example benchmarking figures against the European biomass network dataset. This script reproduces Fig. 10 in the supplementary material.
+### plot_FigS3.R
+Make example benchmarking figures against the European biomass network dataset. This script reproduces Fig. S3 in the supplementary material.
 
 ## config
 ### xx.zip
